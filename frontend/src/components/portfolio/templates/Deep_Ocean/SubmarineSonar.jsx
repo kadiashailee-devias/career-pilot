@@ -570,7 +570,12 @@ export default function SubmarineSonar() {
                   {/* Pull Request Mock Button */}
                   <div className="mt-8 border-t border-cyan-500/10 pt-6">
                     <button
-                      onClick={() => { playSonarPing(980); alert('Submitting acoustic data... Pull Request connection successfully initialized!'); }}
+                      onClick={() => { 
+                        playSonarPing(980); 
+                        setTimeout(() => {
+                          window.open('https://github.com/anurag3407/career-pilot/compare/main...Yash191220:Yash-career-pilot:feature/submarine-sonar-theme', '_blank');
+                        }, 500);
+                      }}
                       className="w-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 hover:text-black py-3 px-4 rounded-xl font-mono font-bold text-sm tracking-wider flex items-center justify-center gap-2.5 transition-all shadow-[0_0_16px_rgba(34,211,238,0.25)] hover:shadow-[0_0_24px_rgba(34,211,238,0.45)] hover:scale-[1.01] cursor-pointer"
                     >
                       <GitPullRequest className="h-4 w-4 animate-bounce" />
