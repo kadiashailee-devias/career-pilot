@@ -8,6 +8,7 @@ import HolographicAbout from "../components/portfolio/templates/Holographic/Abou
 import Hero from "../components/portfolio/templates/Holographic/Hero";
 import CulinaryAbout from "../components/portfolio/templates/Culinary_Restaurant/About";
 import TechStartupHero from "../components/portfolio/templates/Tech_Startup/Hero";
+import ArchitectureBlueprintHero from "../components/portfolio/templates/Architecture_Blueprint/Hero";
 import GeometricShapesAbout from "../components/portfolio/templates/Geometric_Shapes/About";
 import DragPortfolio from "../components/portfolio/templates/Drag_Portfolio";
 import ChooseAdventurePortfolio from "../components/portfolio/templates/Choose_Adventure/index";
