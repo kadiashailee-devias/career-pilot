@@ -33,7 +33,7 @@ export default function RunwayLookbook() {
       
       <div className="text-center mb-20">
 
-        <div className= "w-full min-h-[400px] flex items-center justify-center border-2-dashed border-gray-300 rounded-xl p-8 bg-stone-300"  >
+        <div className= "w-full min-h-100 flex items-center justify-center border-2-dashed border-gray-300 rounded-xl p-8 bg-stone-300"  >
           <p className="uppercase tracking-[0.4em] text-stone-700 text-xl font-serif">
             Runway Lookbook
           </p>
