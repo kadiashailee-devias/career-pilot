@@ -29,7 +29,7 @@ const ResumeBuilder = lazy(() => import('./pages/ResumeBuilder'));
 import TextToResume from './pages/TextToResume';
 import About from './components/portfolio/templates/Tech_Startup/About';
 import ChatbotPortfolio from "./components/portfolio/templates/Chatbot_Portfolio";
-import DayNightCycle from './components/portfolio/templates/Day_Night_Cycle/index.jsx';
+import GamifiedXP from "./components/portfolio/templates/Gamified_XP";
 
 import JobTracker from './pages/JobTracker';
 const Community = lazy(() => import('./pages/Community'));
@@ -179,8 +179,7 @@ function AppRoutes() {
         {/* Template Gallery Route (Registered at /templates) */}
         <Route path="/templates" element={<TemplateGallery />} />
         <Route path="/templates/chatbot" element={<ChatbotPortfolio />} />
-        <Route path="/templates/day-night-cycle" element={<DayNightCycle />} />
-        <Route path="/templates/rainforest-canopy" element={<RainforestCanopy />} />
+        <Route path="/templates/gamified-xp" element={<GamifiedXP />} />
         {/* Core Protected Routes */}
         <Route 
   path="/dashboard" 

@@ -1,3 +1,48 @@
+# [1.61.0](https://github.com/anurag3407/career-pilot/compare/v1.60.0...v1.61.0) (2026-05-28)
+
+
+### Bug Fixes
+
+* improve Playing Cards template color scheme ([54119ee](https://github.com/anurag3407/career-pilot/commit/54119ee6e3308c961175f08bd3660873ab9d4b18))
+
+
+### Features
+
+* add Playing Cards portfolio template [#1970](https://github.com/anurag3407/career-pilot/issues/1970) ([14dbb87](https://github.com/anurag3407/career-pilot/commit/14dbb87c4a06bfdda51281e7cce6636d9f447a1a))
+
+# [1.60.0](https://github.com/anurag3407/career-pilot/compare/v1.59.0...v1.60.0) (2026-05-28)
+
+
+### Features
+
+* **deep-ocean:** implement high-fidelity Projects section with subsea sonar and spotlights [#1351](https://github.com/anurag3407/career-pilot/issues/1351) ([82cd0cc](https://github.com/anurag3407/career-pilot/commit/82cd0cc393b9ecd12d36edac83ba7799c0a2bfd8))
+
+# [1.59.0](https://github.com/anurag3407/career-pilot/compare/v1.58.0...v1.59.0) (2026-05-28)
+
+
+### Bug Fixes
+
+* update anchor tag logic suggested for placeholder URLs ([020453c](https://github.com/anurag3407/career-pilot/commit/020453c9226bf1665dd77a0825485efc84689924))
+
+
+### Features
+
+* complete music vinyl about section ([146578f](https://github.com/anurag3407/career-pilot/commit/146578f3ed0f3e3507af9db911cc089c3f513cab))
+
+# [1.58.0](https://github.com/anurag3407/career-pilot/compare/v1.57.0...v1.58.0) (2026-05-28)
+
+
+### Features
+
+* add Gamified XP portfolio template and route ([f6210f7](https://github.com/anurag3407/career-pilot/commit/f6210f77b68ff915259c03c55609c42d1cd240c9))
+
+# [1.57.0](https://github.com/anurag3407/career-pilot/compare/v1.56.1...v1.57.0) (2026-05-28)
+
+
+### Features
+
+* implement routing for navigation links in JetLandingPage ([1749382](https://github.com/anurag3407/career-pilot/commit/1749382e48ecf8c6ce631b19bf92412db8a1fe18))
+
 ## [1.56.1](https://github.com/anurag3407/career-pilot/compare/v1.56.0...v1.56.1) (2026-05-28)
 
 
