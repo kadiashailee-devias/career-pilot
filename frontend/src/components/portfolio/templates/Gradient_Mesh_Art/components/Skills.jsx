@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <section className="py-24 px-6 md:px-20">
       <h2 className="text-4xl font-black text-center mb-12">
-        Skills & Expertise
+        Skills
       </h2>
 
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-6">

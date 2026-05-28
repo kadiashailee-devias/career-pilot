@@ -40,7 +40,7 @@ export default function Footer() {
                 hover:bg-white/10 
                 hover:scale-110 
                 transition
-              "
+              " target="_blank" rel="noopener noreferrer"
             >
               <s.icon />
             </a>

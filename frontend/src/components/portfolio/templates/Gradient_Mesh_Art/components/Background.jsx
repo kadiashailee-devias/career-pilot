@@ -4,9 +4,6 @@ export default function Background() {
   return (
     <div className="fixed inset-0 -z-10 overflow-hidden bg-gray-950">
 
-      {/* BASE DARK CANVAS */}
-      <div className="absolute inset-0 bg-gray-950" />
-
       {/* NOISE GRID (premium texture) */}
       <div
         className="absolute inset-0 opacity-20"

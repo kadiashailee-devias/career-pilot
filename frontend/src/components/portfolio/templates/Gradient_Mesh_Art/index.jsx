@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 export default function GradientMeshArt() {
   return (
-    <div className="relative min-h-screen bg-[#050712] text-white overflow-hidden">
+    <main className="relative min-h-screen bg-[#050712] text-white overflow-hidden">
       <Background />
       <Hero />
       <About />
@@ -23,7 +23,7 @@ export default function GradientMeshArt() {
       <Testimonials />
       <Contact />
       <Footer />
-    </div>
+    </main>
   );
 }
 

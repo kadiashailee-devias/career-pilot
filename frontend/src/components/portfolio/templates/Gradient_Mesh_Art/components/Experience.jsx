@@ -26,7 +26,7 @@ export default function Experience() {
 
           <h2 className="text-5xl md:text-6xl font-black">
             My{" "}
-            <span className="bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-300 text-transparent bg-clip-text">
+            <span className="bg-linear-to-r from-pink-400 via-purple-400 to-cyan-300 text-transparent bg-clip-text">
               journey
             </span>
           </h2>
@@ -88,15 +88,6 @@ export default function Experience() {
                 <p className="text-gray-300 leading-relaxed">
                   {exp.description}
                 </p>
-
-                {/* optional highlight strip (visual polish) */}
-                <div className="mt-5 flex flex-wrap gap-2">
-                    <span
-                      className="text-xs px-3 py-1 rounded-full bg-white/5 border border-white/10 text-gray-400"
-                    >
-                      {exp.role}
-                    </span>
-                </div>
               </div>
             </motion.div>
           ))}

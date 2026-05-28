@@ -33,10 +33,10 @@ export default function Projects() {
               <p className="text-gray-400 mt-2">{p.description}</p>
 
               <div className="flex gap-4 mt-4">
-                <a className="text-cyan-300" href={p.liveUrl}>
+                <a className="text-cyan-300" href={p.liveUrl} target="_blank" rel="noopener noreferrer" >
                   Live
                 </a>
-                <a className="text-pink-300" href={p.githubUrl}>
+                <a className="text-pink-300" href={p.githubUrl} target="_blank" rel="noopener noreferrer" >
                   Code
                 </a>
               </div>
